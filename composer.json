@@ -1,0 +1,18 @@
+{
+    "name": "ruhollah/frame-work",
+    "authors": [
+        {
+            "name": "SR-Razavi",
+            "email": "verdaura6@gmail.com"
+        }
+    ],
+    "require": {
+        "philo/laravel-blade": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "App\\": "App/"
+        }
+    }
+}
